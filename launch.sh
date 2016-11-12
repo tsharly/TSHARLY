@@ -128,33 +128,7 @@ else
   fi
   
  ## chmod 777 config_fix.sh
-  
-  echo -e "\033[38;5;208m"   
-  echo -e "       CH > @lTSHAKEl_CH            "
-  echo -e "       CH > @lTSHAKEl_CH           "
-  echo -e "       CH > @lTSHAKEl_CH    "
-  echo -e "       CH > @lTSHAKEl_CH     "
-  echo -e "       CH > @lTSHAKEl_CH      "
-  echo -e "       CH > @lTSHAKEl_CH     "
-  echo -e "       CH > @lTSHAKEl_CH            " 
-  echo -e "       CH > @lTSHAKEl_CH            "     
-  echo -e "       CH > @lTSHAKEl_CH           "
-  echo -e "       CH > @lTSHAKEl_CH         " 
-  echo -e "       CH > @lTSHAKEl_CH           " 
-  echo -e "       CH > @lTSHAKEl_CH          \033[0;00m"
-  echo -e "\e[36m"                                      
-  echo -e "CH > @lTSHAKEl_CH" 
-   cat << EOF
- $f1   _____    _        _    _    _____    Dev @lIMyIl 
- $f1  |_   _|__| |__    / \  | | _| ____|   Dev @li_XxX_il
- $f1    | |/ __| '_ \  / _ \ | |/ /  _|     Dev @h_k_a
- $f1    | |\__ \ | | |/ ___ \|   <| |___    Dev @Aram_omar22
- $f1    |_||___/_| |_/_/   \_\_|\_\_____|   Dev @IXX_I_XXI
- $f1               CH > @lTSHAKEl_CH
-EOF
-echo -e "\e[100m          CH > @lTSHAKEl_CH        \e[00;37;40m"
-echo -e "\e[01;34m        CH > @lTSHAKEl_CH         \e[00;37;40m"
-echo ""
+ 
    
   if [ -f data/config.lua ]; then
     ./config_fix.sh
@@ -175,5 +149,5 @@ echo ""
     rm gban1
     
   fi
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./DevTSHAKE/DevTSHAKE.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./Faeder/Faeder.lua -l 1 -E $@
 fi
