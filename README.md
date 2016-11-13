@@ -10,11 +10,11 @@
 
 * 🔺- وراهه 👇
 
-* git clone https://github.com/faederhb11/Faeder.git
+* git clone https://github.com/faederhb11/Feader.git
 
 * 🔺- وراهه👇
 
-* cd Faeder
+* cd Feader
 
 * 🔺- وراهه👇
 
