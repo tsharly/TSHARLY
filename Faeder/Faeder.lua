@@ -212,7 +212,7 @@ function create_config( )
   config = {
     enabled_plugins = {
     "anti_spam",
-    "help",
+    "helo",
     "addsudo",
     "all",
     "admin",
@@ -245,8 +245,8 @@ function create_config( )
     "sof2",
     "supergroup",
     "LEADER",
-    "leader1",
-    "leader2",
+    "LEADER1",
+    "LEADER2",
     "LEADER3",
     "LEADER4",
     "LEADER5",
