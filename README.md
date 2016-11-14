@@ -1,39 +1,48 @@
+سورس ديف فايدر العربي الجديد 🌝🚶
+احدث سورس بالتلي 🕵🖖
 
+💠- افتح ترمنال جديد وخلي 😍👇
 
-* 🔺- افتح ترمنال جديد وخلي🔧👇
+sudo apt-get update
 
-* sudo apt-get update
+🌀- عوفه مفتوح وفتح ترمنال لاخ وخلي 😍👇
 
-* 🔺- عوفه مفتوح وفتح ترمنال لاخ وخلي 👇
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
-* sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+➿- وراهه 😍👇
 
-* 🔺- وراهه 👇
+git clone https://github.com/faederhb11/Feader.git
 
-* git clone https://github.com/faederhb11/Feader.git
+🚼- وراهه😍👇
 
-* 🔺- وراهه👇
+cd Feader
 
-* cd Feader
+☢- وراهه😍👇
 
-* 🔺- وراهه👇
+chmod +x launch.sh
 
-* chmod +x launch.sh
+🔄- وراهه😍👇
 
-* 🔺- وراهه👇
+./launch.sh install
 
-* ./launch.sh install
+☯- وراهه😍👇
 
-* 🔺- وراهه👇
+./launch.sh
 
-* ./launch.sh
+💟- بعدها يطلب رقم ودخل ررقم ومبروك عليك البوت 💞🍃
 
-* 🔺- بعدها يطلب رقم ودخل ررقم ومبروك عليك البوت 💞🍃
+🕎- بعدها افتح ترمنال جديد واكتب😕 👇
 
-* 🔺- بعدها افتح ترمنال جديد واكتب 👇
+sudo service redis-server start
 
-* sudo service redis-server start
+♈️- ودوس انتر
 
-* 🔺- ودوس انتر 
+🈳- وسوي رن من ملف لانج
 
-* 🔺- وسوي رن من ملف لانج
+السورس من تطوير
+⏬↔️⏬↔️⏬↔️⏬↔️⏬↔️⏬
+💯-Đєⱴ💀 : @xXxDev_iqxXx
+💯-Đєⱴ💀 : @hamapaiz
+💯-Đєⱴ💀 : @X_x_56_GaHaNaM_56_x_X
+💯-Đєⱴ💀 : بوت التواصل  @D_e_v_faeder_bot
+💯-Đєⱴ💀قناة السورس @Dev_faed
