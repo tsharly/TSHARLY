@@ -246,6 +246,7 @@ function create_config( )
     "supergroup",
     "kickme",
     "LEADER1",
+    "LEADER",
     "LEADER2",
     "LEADER3",
     "LEADER4",
