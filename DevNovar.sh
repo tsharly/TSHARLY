@@ -25,23 +25,15 @@ rst=$'\e[0m'
 
 cat << EOF
 
- $f1   _____              _           
- $f1  |  ___|__  __ _  __| | ___ _ __ 
- $f1  | |_ / _ \/ _` |/ _` |/ _ \ '__|
- $f1  |  _|  __/ (_| | (_| |  __/ |   
- $f1  |_|  \___|\__,_|\__,_|\___|_|   
+ $f1 @N0VAR  
   
  
 EOF
-echo -e "               \e[100m                TSHAKE script            \e[00;37;40m"
-echo -e "               \e[01;34m              CH > @lTSHAKEl_CH          \e[00;37;40m"
+echo -e "               \e[100m                N0VAR script            \e[00;37;40m"
+echo -e "               \e[01;34m              CH > @DEV_NOVAR          \e[00;37;40m"
 echo ""
 cat << EOF
- $f1   _____              _           
- $f1  |  ___|__  __ _  __| | ___ _ __ 
- $f1  | |_ / _ \/ _` |/ _` |/ _ \ '__|
- $f1  |  _|  __/ (_| | (_| |  __/ |   
- $f1  |_|  \___|\__,_|\__,_|\___|_|   
+ $f1 @N0VAR  
 EOF
 
 sleep 1.2
@@ -60,12 +52,9 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m             CH  : @lTSHAKEl_CH                               \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @lIMyIl                  \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @li_XxX_il                      \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @h_k_a                       \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @Aram_omar22                                \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @IXX_I_XXI                                \033[0;00m"
+echo -e "\033[38;5;208m             CH  : @DEV_NOVAR                               \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @N0VAR                  \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @N0VAR                      \033[0;00m"
 
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -186,22 +175,14 @@ rst=$'\e[0m'
 
 cat << EOF
 
- $f1   _____              _           
- $f1  |  ___|__  __ _  __| | ___ _ __ 
- $f1  | |_ / _ \/ _` |/ _` |/ _ \ '__|
- $f1  |  _|  __/ (_| | (_| |  __/ |   
- $f1  |_|  \___|\__,_|\__,_|\___|_|   
+  $f1 @N0VAR   
  
 EOF
-echo -e "                \e[100m                Feader script           \e[00;37;40m"
-echo -e "               \e[01;34m              CH > @ch_faed  \e[00;37;40m"
+echo -e "                \e[100m                NOVAR script           \e[00;37;40m"
+echo -e "               \e[01;34m              CH > @DEV_NOVAR  \e[00;37;40m"
 echo ""
 cat << EOF
- $f1   _____              _           
- $f1  |  ___|__  __ _  __| | ___ _ __ 
- $f1  | |_ / _ \/ _` |/ _` |/ _ \ '__|
- $f1  |  _|  __/ (_| | (_| |  __/ |   
- $f1  |_|  \___|\__,_|\__,_|\___|_|   
+ $f1 @N0VAR|   
 EOF
 
 sleep 1.3
@@ -220,10 +201,9 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m       CH  : @ch_faed                                    \033[0;00m"
-echo -e "\033[38;5;208m       DEV : @X_x_56_GaHaNaM_56_x_X                          \033[0;00m"
-echo -e "\033[38;5;208m       DEV : @hamapaiz                        \033[0;00m"
-echo -e "\033[38;5;208m       DEV : @xXxDev_iqxXx   \033[0;00m"
+echo -e "\033[38;5;208m       CH  : @DEV_NOVAR                                    \033[0;00m"
+echo -e "\033[38;5;208m       DEV : @N0VAR                          \033[0;00m"
+N0VARecho -e "\033[38;5;208m       DEV : @N0VAR   \033[0;00m"
 
 # Starting preliminar setup
 sleep 1.5
