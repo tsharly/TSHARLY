@@ -11,11 +11,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 ➿- وراهه 
 
-git clone https://github.com/xnoverx/DEVNOVAR.git
+git clone https://github.com/DEVN0VAR/N0VAR-V2.git
 
 🚼- وراهه
 
-cd DEVNOVAR
+cd N0VAR-V2
 
 ☢- وراهه
 
