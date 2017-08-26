@@ -39,3 +39,4 @@ sudo service redis-server start
 
 🈳- وسوي رن من ملف لانج
 
+المطورين : @phplua @N0VAR @tahaj20 
