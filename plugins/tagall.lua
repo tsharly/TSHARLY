@@ -1,55 +1,32 @@
---[[ 
----admin @llX8Xll
---]]
-local function tagall(cb_extra, success, result) 
-    local receiver = cb_extra.receiver 
-    local text = '' 
-local msgss = 0 
-    for k,v in pairs(result.members) do 
-        if v.username then 
-       msgss = msgss + 1 
-   text = text..msgss.."-  @"..v.username.."\n" 
-  end 
-    end 
- text = text.."\n"..cb_extra.msg_text 
- send_large_msg(receiver, text) 
-end 
 
-local function tagall2(cb_extra, success, result) 
-    local receiver = cb_extra.receiver 
-    local text = '' 
-local msgss = 0 
-    for k,v in pairs(result) do 
-        if v.username then 
-       msgss = msgss + 1 
-   text = text..msgss.."-  @"..v.username.."\n" 
-  end 
-    end 
- text = text.."\n"..cb_extra.msg_text 
- send_large_msg(receiver, text) 
-end 
-local function keeper(msg, matches) 
-    local receiver = get_receiver(msg) 
- if not is_momod(msg) then 
-  return " للمہشہرفہيہنہ 🕵🏻  فہقہطہ❤️❗️ "
- end 
- if matches[1] then 
- if msg.to.type == 'chat' then 
- chat_info(receiver, tagall, {receiver = receiver,msg_text = matches[1]}) 
- elseif msg.to.type == 'channel' then 
- channel_get_users(receiver, tagall2, {receiver = receiver,msg_text = matches[1]}) 
- end 
- end 
- return 
-end 
 
+local function run(msg, matches) 
+    local uuser = "mate"..msg.to.id 
+    local chat = get_receiver(msg) 
+    local user = "user#id"..msg.from.id 
+    if redis:get(uuser) then 
+    if not is_momod(msg) then 
+      delete_msg(msg.id, ok_cb, true) 
+    local warn = " "
+    return reply_msg(msg.id, warn, ok_cb, true) 
+    end 
+   end 
+ if is_momod(msg) and matches[1]=="قفل التاك"    then 
+    local uuser = "mate"..msg.to.id 
+    redis:set(uuser,true) 
+   reply_msg(msg.id,'',ok_cb, false) 
+    end 
+     if is_momod(msg) and matches[1]=="فتح التاك"    then 
+    redis:del(uuser) 
+   reply_msg(msg.id,'',ok_cb, false) 
+end 
+end 
 return { 
-  description = "Will tag all ppl with a msg.", 
-  usage = { 
-    "تاك [msg]." 
-  }, 
   patterns = { 
-    "^تاك +(.+)$" 
+"(قفل التاك)$" , 
+"(فتح التاك)$" , 
+  "#"
+  
   }, 
-  run = keeper 
-}
+  run = run 
+} 
