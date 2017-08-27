@@ -1,6 +1,6 @@
 # DEVNOVAR 
 
-[![N|Solid](P®ôƒ£$$îônâl)](https://telegram.me/DEVASL)
+[P®ôƒ£$$îônâl](https://telegram.me/DEVASL)
 
 # التنصيب
 ```sh
