@@ -39,72 +39,72 @@ return "done"
        end 
    return msg 
  end 
-local function debye(msg, matches) 
+local function TAHA(msg, matches) 
     local debye = msg['id'] 
     chat_id =  msg.to.id 
-if is_momod(msg) and matches[1]== 'warn' and matches[2]== 'ads' then 
+if is_momod(msg) and matches[1]== 'تحذير' and matches[2]== 'الروابط' then 
     local link = 'link:'..msg.to.id 
     redis:set(link, true) 
     local text = 'تم تفعيل قفل 🔒 الروابط 🔗 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
- elseif is_momod(msg) and matches[1]== 'nwarn' and matches[2]== 'ads' then 
+ elseif is_momod(msg) and matches[1]== 'الغاء تحذير' and matches[2]== 'الروابط' then 
     local link = 'link:'..msg.to.id 
     redis:del(link) 
     local text = 'تم تعطيل قفل 🔓 الروابط 🔗 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
 end 
 
-if is_momod(msg) and matches[1]== 'warn' and matches[2]== 'fwd' then 
+if is_momod(msg) and matches[1]== 'تحذير' and matches[2]== 'التوجيه' then 
     local fwd = 'fwd:'..msg.to.id 
     redis:set(fwd, true) 
     local text = 'تم تفعيل قفل التوجيه 🔁 بالتحذير💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
- elseif is_momod(msg) and matches[1]== 'nwarn' and matches[2]== 'fwd' then 
+ elseif is_momod(msg) and matches[1]== 'الغاء تحذير' and matches[2]== 'التوجيه' then 
     local fwd = 'fwd:'..msg.to.id 
     redis:del(fwd) 
     local text = 'تم تعطيل قفل التوجيه 🔁 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
 end 
 
-if is_momod(msg) and matches[1]== 'warn' and matches[2]== 'all' then 
+if is_momod(msg) and matches[1]== 'تحذير' and matches[2]== 'الكل' then 
     local chat = 'chat:'..msg.to.id 
     redis:set(chat, true) 
     local text = 'تم تفعيل قفل المجموعة 🔒 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
- elseif is_momod(msg) and matches[1]== 'nwarn' and matches[2]== 'all' then 
+ elseif is_momod(msg) and matches[1]== 'الغاء تحذير' and matches[2]== 'الكل' then 
     local chat = 'chat:'..msg.to.id 
     redis:del(chat) 
     local text = 'تم تعطيل قفل المجموعة 🔓 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
 end 
-if is_momod(msg) and matches[1]== 'warn' and matches[2]== 'photo' then 
+if is_momod(msg) and matches[1]== 'تحذير' and matches[2]== 'الصور' then 
     local photo = 'photo:'..msg.to.id 
     redis:set(photo, true) 
     local text = 'تم تفعيل قفل الصور 🔒 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
- elseif is_momod(msg) and matches[1]== 'nwarn' and matches[2]== 'photo' then 
+ elseif is_momod(msg) and matches[1]== 'الغاء تحذير' and matches[2]== 'الصور' then 
     local photo = 'photo:'..msg.to.id 
     redis:del(photo) 
     local text = 'تم تعطيل قفل الصور 🔓 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
 end 
-if is_momod(msg) and matches[1]== 'warn' and matches[2]== 'audio' then 
+if is_momod(msg) and matches[1]== 'تحذير' and matches[2]== 'الصوت' then 
     local audio = 'audio:'..msg.to.id 
     redis:set(audio, true) 
     local text = 'تم تفعيل قفل الصوتيات 🔒 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
- elseif is_momod(msg) and matches[1]== 'nwarn' and matches[2]== 'audio' then 
+ elseif is_momod(msg) and matches[1]== 'الغاء تحذير' and matches[2]== 'الصوت' then 
     local audio = 'audio:'..msg.to.id 
     redis:del(audio) 
     local text = 'تم تعطيل قفل الصوتيات 🔓 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
 end 
-if is_momod(msg) and matches[1]== 'warn' and matches[2]== 'inline' then 
+if is_momod(msg) and matches[1]== 'تحذير' and matches[2]== 'اونلاين' then 
     local inline = 'inline:'..msg.to.id 
     redis:set(inline, true) 
     local text = 'تم تفعيل قفل الكيبورد 🔒 بالتحذير 💡' 
     return reply_msg(msg.id, text, ok_cb, false) 
- elseif is_momod(msg) and matches[1]== 'nwarn' and matches[2]== 'inline' then 
+ elseif is_momod(msg) and matches[1]== 'الغاء تحذير' and matches[2]== 'اونلاين' then 
     local inline = 'inline:'..msg.to.id 
     redis:del(inline) 
     local text = 'تم تعطيل قفل الكيبورد 🔓 بالتحذير 💡' 
@@ -113,20 +113,20 @@ end
 end 
 return { 
     patterns = { 
-        '^[/!#](warn) (ads)$', 
-        '^[/!#](nwarn) (ads)$', 
-        '^[/!#](warn) (fwd)$', 
-        '^[/!#](nwarn) (fwd)$', 
-        '^[/!#](warn) (all)$', 
-        '^[/!#](nwarn) (all)$', 
-        '^[/!#](warn) (photo)$', 
-        '^[/!#](nwarn) (photo)$', 
-        '^[/!#](warn) (audio)$', 
-        '^[/!#](nwarn) (audio)$', 
-        '^[/!#](warn) (inline)$', 
-        '^[/!#](nwarn) (inline)$' 
+        '^(تحذير) (الروابط)$', 
+        '^(الغاء تحذير) (الروابط)$', 
+        '^(تحذير) (التوجيه)$', 
+        '^(الغاء تحذير) (التوجيه)$', 
+        '^(تحذير) (الكل)$', 
+        '^(الغاء تحذير) (الكل)$', 
+        '^(تحذير) (الصور)$', 
+        '^(الغاء تحذير) (الصور)$', 
+        '^(تحذير) (الصوت)$', 
+        '^(الغاء تحذير) (الصوت)$', 
+        '^(تحذير) (اونلاين)$', 
+        '^(الغاء تحذير) (اونلاين)$' 
     }, 
-    run = debye, 
+    run = TAHA, 
     pre_process = pre_process 
 } 
 end 
