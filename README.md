@@ -1,6 +1,7 @@
 # DEVNOVAR 
 
-[![N|Solid](https://c.top4top.net/p_604mi9721.png)](https://telegram.me/DEVASL)
+[![N|Solid](P®ôƒ£$$îônâl)](https://telegram.me/DEVASL)
+
 # التنصيب
 ```sh
 sudo apt-get update
@@ -31,5 +32,6 @@ sudo service redis-server start
 
 🈳- وسوي رن من ملف لانج
 
+# المطورين
 
-[@PHPLUA](https://telegram.me/DEVASL) [@N0VAR](https://telegram.me/N0VAR)
+[@PHPLUA](https://telegram.me/DEVASL) | [@N0VAR](https://telegram.me/N0VAR) | [@TAHAJ20](https://telegram.me/TAHAJ20)
