@@ -1,7 +1,6 @@
 # DEVNOVAR 
 
-[![N|Solid](https://c.top4top.net/p_604mi9721.png)](https://telegram.me/DEVASL)         [![N|Solid](https://a.top4top.net/p_604vkhm21.png)](https://telegram.me/PHPLUA)        [![N|Solid](https://d.top4top.net/p_604lace51.png)](https://telegram.me/DEVASL)
-
+[![N|Solid](https://c.top4top.net/p_604mi9721.png)](https://telegram.me/DEVASL)
 # التنصيب
 ```sh
 sudo apt-get update
