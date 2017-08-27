@@ -32,4 +32,4 @@ sudo service redis-server start
 
 🈳- وسوي رن من ملف لانج
 
-[![N|Solid](قناتنا)](https://telegram.me/DEVASL) 
+(قناتنا)](https://telegram.me/DEVASL) 
