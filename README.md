@@ -1,42 +1,35 @@
-تنصيب سورس ديف نوفار العربي
-احدث سورس بالتلي 
+# DEVNOVAR 
 
-💠- افتح ترمنال جديد وخلي
+[![N|Solid](https://c.top4top.net/p_604mi9721.png)](https://telegram.me/DEVASL)         [![N|Solid](https://a.top4top.net/p_604vkhm21.png)](https://telegram.me/PHPLUA)        [![N|Solid](https://d.top4top.net/p_604lace51.png)](https://telegram.me/DEVASL)
 
+# التنصيب
+```sh
 sudo apt-get update
-
-🌀- عوفه مفتوح وفتح ترمنال لاخ وخلي 
 
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
-➿- وراهه 
-
 git clone https://github.com/DEVN0VAR/N0VAR-V2.git
-
-🚼- وراهه
 
 cd N0VAR-V2
 
-☢- وراهه
-
 chmod +x launch.sh
-
-🔄-وبعده
 
 ./launch.sh install
 
-☯-وبعده
+./launch.sh install
 
 ./launch.sh
+
+```
 
 💟- بعدها يطلب رقم ودخل ررقم ومبروك عليك البوت 
 
 🕎- بعدها افتح ترمنال جديد واكتب
 
+```sh
 sudo service redis-server start
-
-♈️- ودوس انتر
+```
 
 🈳- وسوي رن من ملف لانج
 
-المطورين : @phplua @N0VAR @tahaj20 
+[![N|Solid](قناتنا)](https://telegram.me/DEVASL) 
