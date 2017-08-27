@@ -31,4 +31,5 @@ sudo service redis-server start
 
 🈳- وسوي رن من ملف لانج
 
-[@PHPLUA](https://telegram.me/DEVASL) 
+
+[@PHPLUA](https://telegram.me/DEVASL) [@N0VAR](https://telegram.me/N0VAR)
