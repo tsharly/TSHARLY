@@ -1,6 +1,6 @@
 # TSHARLY
 
-[P®ôƒ£$$îônâl](https://telegram.me/DEVASL)
+[PRô](https://telegram.me/DEVASL)
 
 # التنصيب
 ```sh
