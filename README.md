@@ -16,8 +16,6 @@ chmod +x launch.sh
 
 ./launch.sh install
 
-./launch.sh install
-
 ./launch.sh
 
 ```
