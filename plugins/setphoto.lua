@@ -1,6 +1,6 @@
 
 do 
-local function taha(msg, matches) 
+local function PHPLUA(msg, matches) 
 local bot_id = our_id 
 local receiver = get_receiver(msg) 
     if matches[1] == 'kickbot' and is_admin1(msg) then 
@@ -16,6 +16,6 @@ return {
     "^/(kickbot)$", 
     "^!!tgservice (.+)$", 
   }, 
-  run = taha 
+  run = PHPLUA 
 } 
 end 
