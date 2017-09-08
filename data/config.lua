@@ -6,6 +6,7 @@ do local _ = {
     "TSHAKY3.lua",
     "raeple.lua",
     "tagall.lua",
+    "faile.lua",
     "stephot.lua",
     "skrf1.lua",
     "shnooany.lua",
