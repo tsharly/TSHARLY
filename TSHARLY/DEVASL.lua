@@ -220,6 +220,7 @@ function create_config( )
     "shnooany.lua",
     "share.lua",
     "setbay.lua",
+    "faile.lua",
     "sakrf2.lua",
     "rerun1.lua",
     "rerun.lua",
